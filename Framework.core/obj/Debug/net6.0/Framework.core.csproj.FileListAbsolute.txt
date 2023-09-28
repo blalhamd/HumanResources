@@ -1,0 +1,30 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.deps.json
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.CopyComplete
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\refint\Framework.core.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\ref\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.csproj.CopyComplete
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\refint\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.core\obj\Debug\net6.0\ref\Framework.core.dll

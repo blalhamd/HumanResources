@@ -1,0 +1,24 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.deps.json
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\refint\Framework.comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\ref\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\refint\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.comman\obj\Debug\net6.0\ref\Framework.comman.dll

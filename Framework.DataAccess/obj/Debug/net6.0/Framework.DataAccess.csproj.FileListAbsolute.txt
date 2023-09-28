@@ -1,0 +1,24 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.DataAccess.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.DataAccess.runtimeconfig.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.DataAccess.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.DataAccess.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.csproj.CopyComplete
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\refint\Framework.DataAccess.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\Framework.DataAccess.genruntimeconfig.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Framework.Exceptions\obj\Debug\net6.0\ref\Framework.DataAccess.dll
