@@ -19,6 +19,7 @@ namespace Service.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IQueryable<BillViewModel>> GetAllAsync()
         {
             var query = await _billService.GetAllAsync();
@@ -27,6 +28,7 @@ namespace Service.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public async Task<BillViewModel> GetByIdAsync(int id)
         {
             var query = await _billService.GetByIdAsync(id);
@@ -36,6 +38,7 @@ namespace Service.API.Controllers
 
 
         [HttpPost]
+        [Authorize]
         public async Task<BillViewModel> AddAsync(BillViewModel BillViewModel)
         {
             var search = await _billService.AddAsync(BillViewModel);
@@ -44,6 +47,7 @@ namespace Service.API.Controllers
         }
 
         [HttpPost("Range")]
+        [Authorize]
         public async Task<IList<BillViewModel>> AddRangeAsync(IEnumerable<BillViewModel> BillViewModels)
         {
             var query = await _billService.AddRangeAsync(BillViewModels);
@@ -52,6 +56,7 @@ namespace Service.API.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         public async Task<Bill> UpdateAsync(UpdateBillViewModel BillViewModel)
         {
 
@@ -61,6 +66,7 @@ namespace Service.API.Controllers
         }
 
         [HttpPut("Range")]
+        [Authorize]
         public async Task<IList<Bill>> UpdateRangeAsync(IEnumerable<UpdateBillViewModel> BillViewModels)
         {
             var query= await _billService.UpdateRangeAsync(BillViewModels);
@@ -69,12 +75,14 @@ namespace Service.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public async Task DeleteAsync(int id)
         {
             await _billService.DeleteAsync(id);
         }
 
         [HttpGet("Search")]
+        [Authorize]
         public async Task<GenericResult<IList<BillLightViewModel>>> Search(BillSearchViewModel searchViewModel)
         {
             var query = await _billService.Search(searchViewModel);
@@ -83,6 +91,7 @@ namespace Service.API.Controllers
         }
 
         [HttpGet("lookup/Search")]
+        [Authorize]
         public async Task<GenericResult<IList<BillLookUpViewModel>>> SearchLookUp(BillLookUpSearchViewModel SearchModel)
         {
             var query = await _billService.SearchLookUp(SearchModel);
@@ -91,6 +100,7 @@ namespace Service.API.Controllers
         }
 
         [HttpGet("View/{id}")]
+        [Authorize]
         public async Task<BillViewViewModel> Search(int id)
         {
             var query = await _billService.Search(id);
