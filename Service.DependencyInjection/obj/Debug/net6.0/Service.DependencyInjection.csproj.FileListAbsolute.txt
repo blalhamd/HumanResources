@@ -1,0 +1,34 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.DependencyInjection.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.DependencyInjection.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.DependencyInjection.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.DataAccess.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Business.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Core.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.DataAccess.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Entities.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.core.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.DataAccess.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Business.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Core.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.DataAccess.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\bin\Debug\net6.0\Service.Entities.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.csproj.CopyComplete
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\refint\Service.DependencyInjection.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\Service.DependencyInjection.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.DependencyInjection\obj\Debug\net6.0\ref\Service.DependencyInjection.dll

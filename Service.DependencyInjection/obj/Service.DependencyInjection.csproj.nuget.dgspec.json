@@ -1,0 +1,626 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DependencyInjection\\Service.DependencyInjection.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj",
+        "projectName": "Framework.comman",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj",
+        "projectName": "Framework.core",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj",
+        "projectName": "Framework.DataAccess",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\Service.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\Service.Business.csproj",
+        "projectName": "Service.Business",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\Service.Business.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.Diagnostics.EventLog": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\Service.Comman.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\Service.Comman.csproj",
+        "projectName": "Service.Comman",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\Service.Comman.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj",
+        "projectName": "Service.Core",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj",
+        "projectName": "Service.DataAccess",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DependencyInjection\\Service.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DependencyInjection\\Service.DependencyInjection.csproj",
+        "projectName": "Service.DependencyInjection",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DependencyInjection\\Service.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.core\\Framework.core.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.Exceptions\\Framework.DataAccess.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\Service.Business.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Business\\Service.Business.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Core\\Service.Core.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.DataAccess\\Service.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj",
+        "projectName": "Service.Entities",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\Service.Entities.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Framework.comman\\Framework.comman.csproj"
+              },
+              "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\Service.Comman.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Desktop\\Revision\\HospitalSystemWithCleanArchitecture\\Service.Comman\\Service.Comman.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
