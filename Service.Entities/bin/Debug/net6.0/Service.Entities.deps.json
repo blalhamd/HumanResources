@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Service.Entities/1.0.0": {
+        "dependencies": {
+          "Framework.comman": "1.0.0",
+          "Service.Comman": "1.0.0"
+        },
+        "runtime": {
+          "Service.Entities.dll": {}
+        }
+      },
+      "Framework.comman/1.0.0": {
+        "runtime": {
+          "Framework.comman.dll": {}
+        }
+      },
+      "Service.Comman/1.0.0": {
+        "runtime": {
+          "Service.Comman.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Service.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.comman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Service.Comman/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

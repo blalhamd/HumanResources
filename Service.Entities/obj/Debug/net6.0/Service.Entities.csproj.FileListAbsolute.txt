@@ -1,0 +1,34 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.deps.json
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.CopyComplete
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\refint\Service.Entities.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\ref\Service.Entities.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Entities.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Framework.comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Framework.comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\bin\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.csproj.CopyComplete
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\refint\Service.Entities.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\Service.Entities.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Entities\obj\Debug\net6.0\ref\Service.Entities.dll
