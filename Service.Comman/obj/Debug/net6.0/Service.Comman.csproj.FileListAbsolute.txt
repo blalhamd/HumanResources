@@ -1,0 +1,24 @@
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.deps.json
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.AssemblyInfo.cs
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\refint\Service.Comman.dll
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\برامج المراجعه\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\ref\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.deps.json
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\bin\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\refint\Service.Comman.dll
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\Service.Comman.pdb
+C:\Users\DELL\Desktop\Revision\HospitalSystemWithCleanArchitecture\Service.Comman\obj\Debug\net6.0\ref\Service.Comman.dll
