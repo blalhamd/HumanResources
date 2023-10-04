@@ -20,94 +20,96 @@ namespace Service.API.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<IQueryable<PatientViewModel>> GetAllAsync()
+        public async Task<ActionResult<IQueryable<PatientViewModel>>> GetAllAsync()
         {
             var query = await _PatientService.GetAllAsync();
 
-            return query;
+            return Ok(query);
         }
 
 
         [HttpGet("{id}")]
         [Authorize]
-        public async Task<PatientViewModel> GetByIdAsync(int id)
+        public async Task<ActionResult<PatientViewModel>> GetByIdAsync(int id)
         {
             var query = await _PatientService.GetByIdAsync(id);
 
-            return query;
+            return OK(query);
         }
 
         [HttpPost]
         [Authorize]
-        public async Task<PatientViewModel> AddAsync(PatientViewModel PatientViewModel)
+        public async Task<ActionResult<PatientViewModel>> AddAsync(PatientViewModel PatientViewModel)
         {
             var search = await _PatientService.AddAsync(PatientViewModel);
 
-            return PatientViewModel;
+            return Created(" ",PatientViewModel);
         }
 
         [HttpPost("Range")]
         [Authorize]
-        public async Task<IList<PatientViewModel>> AddRangeAsync(IEnumerable<PatientViewModel> PatientViewModels)
+        public async Task<ActionResult<IList<PatientViewModel>>> AddRangeAsync(IEnumerable<PatientViewModel> PatientViewModels)
         {
-            var query = await _PatientService.AddRangeAsync(PatientViewModels);
+            var result = await _PatientService.AddRangeAsync(PatientViewModels);
 
-            return query;
+            return Created(" ",result);;
         }
 
 
-        [HttpPut]
+        [HttpPut("{id}")]
         [Authorize]
-        public async Task<Patient> UpdateAsync(UpdatePatientViewModel PatientViewModel)
+        public async Task<ActionResult<Patient>> UpdateAsync(UpdatePatientViewModel PatientViewModel)
         {
 
-            var query = await _PatientService.UpdateAsync(PatientViewModel);
+            var result = await _PatientService.UpdateAsync(PatientViewModel);
 
-            return query;
+            return Ok(result);
         }
 
         [HttpPut("Range")]
         [Authorize]
-        public async Task<IList<Patient>> UpdateRangeAsync(IEnumerable<UpdatePatientViewModel> PatientViewModels)
+        public async Task<ActionResult<IList<Patient>>> UpdateRangeAsync(IEnumerable<UpdatePatientViewModel> PatientViewModels)
         {
-            var query= await _PatientService.UpdateRangeAsync(PatientViewModels);
+            var result= await _PatientService.UpdateRangeAsync(PatientViewModels);
 
-            return query;
+            return Ok(result);
         }
 
 
         [HttpDelete("{id}")]
         [Authorize]
-        public async Task DeleteAsync(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
             await _PatientService.DeleteAsync(id);
+
+            return Ok();
         }
 
         [HttpGet("Search")]
         [Authorize]
-        public async Task<GenericResult<IList<PatientLightViewModel>>> Search(PatientSearchViewModel searchViewModel)
+        public async Task<ActionResult<GenericResult<IList<PatientLightViewModel>>>> Search(PatientSearchViewModel searchViewModel)
         {
             var query = await _PatientService.Search(searchViewModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("lookup/Search")]
         [Authorize]
-        public async Task<GenericResult<IList<PatientLookUpViewModel>>> SearchLookUp(PatientLookUpSearchViewModel SearchModel)
+        public async Task<ActionResult<GenericResult<IList<PatientLookUpViewModel>>>> SearchLookUp(PatientLookUpSearchViewModel SearchModel)
         {
             var query = await _PatientService.SearchLookUp(SearchModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("View/{id}")]
         [Authorize]
-        public async Task<PatientViewViewModel> Search(int id)
+        public async Task<ActionResult<PatientViewViewModel>> Search(int id)
         {
             var query = await _PatientService.Search(id);
 
-            return query;
+            return Ok(query);
         }
 
 
