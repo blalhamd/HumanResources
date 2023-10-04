@@ -21,94 +21,96 @@ namespace Service.API.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<IQueryable<AppointmentViewModel>> GetAllAsync()
+        public async Task<ActionResult<IQueryable<AppointmentViewModel>>> GetAllAsync()
         {
             var query = await _AppointmentService.GetAllAsync();
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("{id}")]
         [Authorize]
-        public async Task<AppointmentViewModel> GetByIdAsync(int id)
+        public async Task<ActionResult<AppointmentViewModel>> GetByIdAsync(int id)
         {
             var query = await _AppointmentService.GetByIdAsync(id);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpPost]
         [Authorize]
-        public async Task<AppointmentViewModel> AddAsync(AppointmentViewModel AppointmentViewModel)
+        public async Task<ActionResult<AppointmentViewModel>> AddAsync(AppointmentViewModel AppointmentViewModel)
         {
             var search = await _AppointmentService.AddAsync(AppointmentViewModel);
 
-            return AppointmentViewModel;
+            return Created(" ",AppointmentViewModel);
         }
 
         [HttpPost("Range")]
         [Authorize]
-        public async Task<IList<AppointmentViewModel>> AddRangeAsync(IEnumerable<AppointmentViewModel> AppointmentViewModels)
+        public async Task<ActionResult<IList<AppointmentViewModel>>> AddRangeAsync(IEnumerable<AppointmentViewModel> AppointmentViewModels)
         {
-            var query = await _AppointmentService.AddRangeAsync(AppointmentViewModels);
+            var result = await _AppointmentService.AddRangeAsync(AppointmentViewModels);
 
-            return query;
+            return Created(" ",result);
         }
 
 
         [HttpPut]
         [Authorize]
-        public async Task<Appointment> UpdateAsync(UpdateAppointMentViewModel AppointmentViewModel)
+        public async Task<ActionResult<Appointment>> UpdateAsync(UpdateAppointMentViewModel AppointmentViewModel)
         {
 
-            var query = await _AppointmentService.UpdateAsync(AppointmentViewModel);
+            var result = await _AppointmentService.UpdateAsync(AppointmentViewModel);
 
-            return query;
+            return Ok(result);
         }
 
         [HttpPut("Range")]
         [Authorize]
-        public async Task<IList<Appointment>> UpdateRangeAsync(IEnumerable<UpdateAppointMentViewModel> AppointmentViewModels)
+        public async Task<ActionResult<IList<Appointment>>> UpdateRangeAsync(IEnumerable<UpdateAppointMentViewModel> AppointmentViewModels)
         {
             var query = await _AppointmentService.UpdateRangeAsync(AppointmentViewModels);
 
-            return query;
+            return Ok(query);
         }
 
 
         [HttpDelete("{id}")]
         [Authorize]
-        public async Task DeleteAsync(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
             await _AppointmentService.DeleteAsync(id);
+
+            return Ok();
         }
 
 
         [HttpGet("Search")]
         [Authorize]
-        public async Task<GenericResult<IList<AppointmentLightViewModel>>> Search(AppointmentSearchViewModel searchModel)
+        public async Task<ActionResult<GenericResult<IList<AppointmentLightViewModel>>>> Search(AppointmentSearchViewModel searchModel)
         {
             var query = await _AppointmentService.Search(searchModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("lookup/Search")]
         [Authorize]
-        public async Task<GenericResult<IList<AppointmentLookUpViewModel>>> Search(AppointmentLookUpSearchViewModel searchModel)
+        public async Task<ActionResult<GenericResult<IList<AppointmentLookUpViewModel>>>> Search(AppointmentLookUpSearchViewModel searchModel)
         {
             var query = await _AppointmentService.SearchLookUp(searchModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("View/{id}")]
         [Authorize]
-        public async Task<AppointmentViewViewModel> Search(int id)
+        public async Task<ActionResult<AppointmentViewViewModel>> Search(int id)
         {
             var query = await _AppointmentService.Search(id);
 
-            return query;
+            return Ok(query);
         }
 
     }
