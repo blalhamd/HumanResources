@@ -20,58 +20,58 @@ namespace Service.API.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<IQueryable<BillViewModel>> GetAllAsync()
+        public async Task<ActionResult<IQueryable<BillViewModel>>> GetAllAsync()
         {
             var query = await _billService.GetAllAsync();
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("{id}")]
         [Authorize]
-        public async Task<BillViewModel> GetByIdAsync(int id)
+        public async Task<ActionResult<BillViewModel>> GetByIdAsync(int id)
         {
             var query = await _billService.GetByIdAsync(id);
 
-            return query;
+            return Ok(query);
         }
 
 
         [HttpPost]
         [Authorize]
-        public async Task<BillViewModel> AddAsync(BillViewModel BillViewModel)
+        public async Task<ActionResult<BillViewModel>> AddAsync(BillViewModel BillViewModel)
         {
             var search = await _billService.AddAsync(BillViewModel);
 
-            return BillViewModel;
+            return Created(" ",BillViewModel);
         }
 
         [HttpPost("Range")]
         [Authorize]
-        public async Task<IList<BillViewModel>> AddRangeAsync(IEnumerable<BillViewModel> BillViewModels)
+        public async Task<ActionResult<IList<BillViewModel>>> AddRangeAsync(IEnumerable<BillViewModel> BillViewModels)
         {
-            var query = await _billService.AddRangeAsync(BillViewModels);
+            var result = await _billService.AddRangeAsync(BillViewModels);
 
-            return query;
+            return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         [Authorize]
-        public async Task<Bill> UpdateAsync(UpdateBillViewModel BillViewModel)
+        public async Task<ActionResult<Bill>> UpdateAsync(UpdateBillViewModel BillViewModel)
         {
 
-            var query = await _billService.UpdateAsync(BillViewModel);
+            var result = await _billService.UpdateAsync(BillViewModel);
 
-            return query;
+            return Ok(result);
         }
 
         [HttpPut("Range")]
         [Authorize]
-        public async Task<IList<Bill>> UpdateRangeAsync(IEnumerable<UpdateBillViewModel> BillViewModels)
+        public async Task<ActionResult<IList<Bill>>> UpdateRangeAsync(IEnumerable<UpdateBillViewModel> BillViewModels)
         {
-            var query= await _billService.UpdateRangeAsync(BillViewModels);
+            var result= await _billService.UpdateRangeAsync(BillViewModels);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpDelete("{id}")]
@@ -83,29 +83,29 @@ namespace Service.API.Controllers
 
         [HttpGet("Search")]
         [Authorize]
-        public async Task<GenericResult<IList<BillLightViewModel>>> Search(BillSearchViewModel searchViewModel)
+        public async Task<ActionResult<GenericResult<IList<BillLightViewModel>>>> Search(BillSearchViewModel searchViewModel)
         {
             var query = await _billService.Search(searchViewModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("lookup/Search")]
         [Authorize]
-        public async Task<GenericResult<IList<BillLookUpViewModel>>> SearchLookUp(BillLookUpSearchViewModel SearchModel)
+        public async Task<ActionResult<GenericResult<IList<BillLookUpViewModel>>>> SearchLookUp(BillLookUpSearchViewModel SearchModel)
         {
             var query = await _billService.SearchLookUp(SearchModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("View/{id}")]
         [Authorize]
-        public async Task<BillViewViewModel> Search(int id)
+        public async Task<ActionResult<BillViewViewModel>> Search(int id)
         {
             var query = await _billService.Search(id);
 
-            return query;
+            return Ok(query);
         }
 
 
