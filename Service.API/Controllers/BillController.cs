@@ -52,7 +52,7 @@ namespace Service.API.Controllers
         {
             var result = await _billService.AddRangeAsync(BillViewModels);
 
-            return Ok(result);
+            return Created(" ",result);
         }
 
         [HttpPut("{id}")]
@@ -76,9 +76,11 @@ namespace Service.API.Controllers
 
         [HttpDelete("{id}")]
         [Authorize]
-        public async Task DeleteAsync(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
             await _billService.DeleteAsync(id);
+
+            return Ok();
         }
 
         [HttpGet("Search")]
