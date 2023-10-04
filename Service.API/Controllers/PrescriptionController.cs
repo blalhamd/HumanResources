@@ -20,92 +20,94 @@ namespace Service.API.Controllers
 
         [HttpGet]
         [Authorize]
-        public async Task<IQueryable<PrescriptionViewModel>> GetAllAsync()
+        public async Task<ActionResult<IQueryable<PrescriptionViewModel>>> GetAllAsync()
         {
             var query = await _PrescriptionService.GetAllAsync();
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("{id}")]
         [Authorize]
-        public async Task<PrescriptionViewModel> GetByIdAsync(int id)
+        public async Task<ActionResult<PrescriptionViewModel>> GetByIdAsync(int id)
         {
             var query = await _PrescriptionService.GetByIdAsync(id);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpPost]
         [Authorize]
-        public async Task<PrescriptionViewModel> AddAsync(PrescriptionViewModel PrescriptionViewModel)
+        public async Task<ActionResult<PrescriptionViewModel>> AddAsync(PrescriptionViewModel PrescriptionViewModel)
         {
             var search = await _PrescriptionService.AddAsync(PrescriptionViewModel);
 
-            return PrescriptionViewModel;
+            return Created(" ",PrescriptionViewModel);
         }
 
         [HttpPost("Range")]
         [Authorize]
-        public async Task<IList<PrescriptionViewModel>> AddRangeAsync(IEnumerable<PrescriptionViewModel> PrescriptionViewModels)
+        public async Task<ActionResult<IList<PrescriptionViewModel>>> AddRangeAsync(IEnumerable<PrescriptionViewModel> PrescriptionViewModels)
         {
-            var query = await _PrescriptionService.AddRangeAsync(PrescriptionViewModels);
+            var result = await _PrescriptionService.AddRangeAsync(PrescriptionViewModels);
 
-            return query;
+            return Created(" ",result);
         }
 
-        [HttpPut]
+        [HttpPut("{id})]
         [Authorize]
-        public async Task<Prescription> UpdateAsync(UpdatePrescriptionViewModel PrescriptionViewModel)
+        public async Task<ActionResult<Prescription>> UpdateAsync(UpdatePrescriptionViewModel PrescriptionViewModel)
         {
 
-            var query = await _PrescriptionService.UpdateAsync(PrescriptionViewModel);
+            var result = await _PrescriptionService.UpdateAsync(PrescriptionViewModel);
 
-            return query;
+            return Ok(result);
         }
 
         [HttpPut("Range")]
         [Authorize]
-        public async Task<IList<Prescription>> UpdateRangeAsync(IEnumerable<UpdatePrescriptionViewModel> PrescriptionViewModels)
+        public async Task<ActionResult<IList<Prescription>>> UpdateRangeAsync(IEnumerable<UpdatePrescriptionViewModel> PrescriptionViewModels)
         {
-            var query = await _PrescriptionService.UpdateRangeAsync(PrescriptionViewModels);
+            var result = await _PrescriptionService.UpdateRangeAsync(PrescriptionViewModels);
 
-            return query;
+            return Ok(result);
         }
 
 
         [HttpDelete("{id}")]
         [Authorize]
-        public async Task DeleteAsync(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
             await _PrescriptionService.DeleteAsync(id);
+
+            return Ok();
         }
 
         [HttpGet("Search")]
         [Authorize]
-        public async Task<GenericResult<IList<PrescriptionLightViewModel>>> Search(PrescriptionSearchViewModel searchViewModel)
+        public async Task<ActionResult<GenericResult<IList<PrescriptionLightViewModel>>>> Search(PrescriptionSearchViewModel searchViewModel)
         {
             var query = await _PrescriptionService.Search(searchViewModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("lookup/Search")]
         [Authorize]
-        public async Task<GenericResult<IList<PrescriptionLookUpViewModel>>> SearchLookUp(PrescriptionLookUpSearchViewModel SearchModel)
+        public async Task<ActionResult<GenericResult<IList<PrescriptionLookUpViewModel>>>> SearchLookUp(PrescriptionLookUpSearchViewModel SearchModel)
         {
             var query = await _PrescriptionService.SearchLookUp(SearchModel);
 
-            return query;
+            return Ok(query);
         }
 
         [HttpGet("View/{id}")]
         [Authorize]
-        public async Task<PrescriptionViewViewModel> Search(int id)
+        public async Task<ActionResult<PrescriptionViewViewModel>> Search(int id)
         {
             var query = await _PrescriptionService.Search(id);
 
-            return query;
+            return Ok(query);
         }
 
     }
