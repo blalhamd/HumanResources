@@ -68,8 +68,6 @@ The **Human Resources Management System** is a comprehensive solution for managi
   - **Entity Framework Core**: For database operations and ORM functionality.
 - **Database**:
   - **SQL Server**: For structured data storage.
-- **Frontend**:
-  - **Angular**: For building a responsive user interface.
 - **Version Control**:
   - **Git**: For source code management.
   - **GitHub**: For collaboration and code hosting.
